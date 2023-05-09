@@ -49,18 +49,10 @@ My coding partner and I have just completed a project where we were tasked with 
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Create a database]**
 - **[Create a table]**
-- **[Insert data into table]**
-- **[Update table]**
-- **[Query multiple table]**
 - **[Create join tables]**
-- **[Performance audit]**
 - **[Database schema diagram]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,9 +60,9 @@ My coding partner and I have just completed a project where we were tasked with 
 
 This repository includes files with plain SQL that can be used to recreate a database:
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+- Use [schema_based_on_diagram.sql](./schema_based_on_diagram.sql) to create all tables.
+<!--- Use [data.sql](./data.sql) to populate tables with sample data.
+- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**-->
 
 ### Prerequisites
 
@@ -84,7 +76,7 @@ Clone this repository to your desired folder:
 ```
   $ git clone https://github.com/Koshao-sys/Database-Diagram
 
-  $ cd vet-clinic-database
+  $ cd database-diagram
 ```
 ### Install
 
@@ -98,7 +90,11 @@ Select correct PostgreSQL package and install from https://www.postgresql.org/do
 
 - GitHub: [@Henry Omondi](https://github.com/Odongo006)
 
-/Kosh/
+👤 **Koshao Godfrey Kazungu**
+
+- GitHub: [@gKoshao-sys](https://github.com/Koshao-sys/)
+- Twitter: [@KoshaoKG](https://twitter.com/KoshaoKG)
+- LinkedIn: [koshaokazungu](https://www.linkedin.com/in/koshaokazungu/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -116,7 +112,7 @@ Select correct PostgreSQL package and install from https://www.postgresql.org/do
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Koshao-sys/Database-Diagram/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
