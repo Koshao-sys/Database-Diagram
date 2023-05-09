@@ -4,9 +4,8 @@ id int generated always as identity primary key,
 name varchar(250),
 date_of_birth date);
 
+/* create table medical_histories */
 create table medical_histories(
-/* create table patients */
-create table patients(
 id int generated always as identity primary key,
 admitted_at timestamp,
 patient_id int references patients(id),
